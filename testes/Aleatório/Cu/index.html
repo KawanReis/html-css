@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozinho Hoje?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cuzinho Hoje?</h1>
+        <div class="buttons">
+            <button id="sim">Sim</button>
+            <button id="nao">Não</button>
+        </div>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        const btnNao = document.getElementById('nao');
+        const btnSim = document.getElementById('sim');
+        const resultado = document.getElementById('resultado');
+
+        btnNao.addEventListener('mouseover', function() {
+            const randomX = Math.floor(Math.random() * (window.innerWidth - this.offsetWidth));
+            const randomY = Math.floor(Math.random() * (window.innerHeight - this.offsetHeight));
+            this.style.position = 'absolute';
+            this.style.left = randomX + 'px';
+            this.style.top = randomY + 'px';
+        });
+
+        btnSim.addEventListener('click', function() {
+            resultado.textContent = "Hoje promete";
+        });
+    </script>
+</body>
+</html>
