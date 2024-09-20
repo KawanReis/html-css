@@ -29,6 +29,11 @@
     padding-bottom: 5px;
 }
 
+#curriculo > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 header {
     background-color: var(--cor3);
@@ -84,13 +89,14 @@ ul {
 }
 article img {
     border-radius: 30px;
-    padding-top: 20px;
+    padding-top: 27px;
     width: 28vh;
     margin: 20px;
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.212);
 }
 
 article img:hover {
+    padding-top: 0px;
     width: 30vh;
     transition: 0.5s;
     box-shadow: 0px 0px 10px;
