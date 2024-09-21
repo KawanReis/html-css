@@ -92,8 +92,10 @@
     border-radius: 20px;
 }
 
-
-
+#titulo img {
+    max-width: 600px;
+    min-width: 500px;
+}
 
 
 header {
@@ -136,7 +138,6 @@ main {
     margin: 20px;
     border-radius: 30px;
     box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.801);
-
 }
 
 article {
@@ -163,5 +164,4 @@ article > h2 {
 #teste {
     background-color: black;
     padding-top: 80px;
-
 }
