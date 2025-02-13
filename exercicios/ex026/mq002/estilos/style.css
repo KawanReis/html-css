@@ -10,10 +10,13 @@
 html, body {
     width: 100vh;
     height: 100vh;
-    background-color: black;
+    background-color: #233eff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1 {
     color: white;
-    text-shadow: 3px 3px 0px color;
+    text-shadow: 2px 2px 0px black;
 }
